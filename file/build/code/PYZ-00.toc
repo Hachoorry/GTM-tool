@@ -1,4 +1,4 @@
-('C:\\Users\\iSB\\Desktop\\github\\GTM-tool\\build\\code\\PYZ-00.pyz',
+('C:\\Users\\iSB\\Desktop\\GTM-tool-main\\file\\build\\code\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\iSB\\anaconda3\\envs\\newEnv20221123Test\\lib\\_compat_pickle.py',
    'PYMODULE'),

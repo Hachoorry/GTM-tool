@@ -40,7 +40,8 @@ json_object_new["containerVersion"]["variable"][0]["parameter"][8]["value"] = cu
 
 # 存檔
 json_object_new = json.loads(json_object_new)
-a_file = open(f"{cus_domain.replace('.','')}_{template_type}.json", "w")  # 不用encode匯入後也是中文
+template_type_formatted = json_object_new["iSB_comment"]
+a_file = open(f"{cus_domain.replace('.','')}_{template_type_formatted}.json", "w")  # 不用encode匯入後也是中文
 json.dump(json_object_new, a_file)  # 不用indent也可以成功匯入
 a_file.close()
 print('JSON檔案已建立')
